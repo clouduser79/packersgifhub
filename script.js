@@ -37,7 +37,7 @@ fetch('files.json')
       const card = document.createElement('div');
       card.className = 'gif-card';
       card.innerHTML = `
-        <img src="Packers Pain GIFs/${filename}" alt="${name}" onclick="openModal(this.src)" loading="eager" />
+        <img src="gifFolder/${filename}" alt="${name}" onclick="openModal(this.src)" loading="eager" />
         <div class="gif-card-meta">
           <span class="gif-card-title">${name}</span>
           <span class="gif-card-tag">${ext}</span>
