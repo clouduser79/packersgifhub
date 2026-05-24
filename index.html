@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Packers GIF Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo" onclick="showPage('home')">PACKERS<span> PAIN</span></span>
+    <ul class="nav-links">
+      <li><a onclick="showPage('home')" data-page="home" class="active">Home</a></li>
+      <li><a onclick="showPage('story')" data-page="story">Story</a></li>
+      <li><a onclick="showPage('library')" data-page="library">Library</a></li>
+      <li><a onclick="showPage('about')" data-page="about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <section id="home" class="page active">
+    <div class="hero">
+      <div class="hero-bg-text">PP</div>
+
+      <div class="hero-inner">
+        <div class="hero-left">
+          <p class="hero-eyebrow">// Digital Design Collective</p>
+          <h1 class="hero-title">PACKERS<br><span class="highlight">GIF HUB</span></h1>
+          <p class="hero-sub">Making Instagram comment sections funnier every day. GIF art, meme culture, and digital chaos — one reaction at a time.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary" onclick="showPage('library')">View Library</button>
+            <button class="btn btn-outline" onclick="showPage('story')">Read the Story</button>
+          </div>
+        </div>
+      
+        <div class="hero-right">
+          <div class="scroll-col scroll-up">
+            <img src="Packers Pain GIFs/giphy_1.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_212.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_3.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_4.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_5.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_6.gif" alt="" />
+            <!-- duplicated for seamless loop -->
+            <img src="Packers Pain GIFs/giphy_1.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_212.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_3.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_4.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_5.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_6.gif" alt="" />
+          </div>
+          <div class="scroll-col scroll-down">
+            <img src="Packers Pain GIFs/giphy_7.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_8.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_9.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_10.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_11.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_12.gif" alt="" />
+            <!-- duplicated for seamless loop -->
+            <img src="Packers Pain GIFs/giphy_7.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_8.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_9.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_10.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_11.gif" alt="" />
+            <img src="Packers Pain GIFs/giphy_12.gif" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <span>PACKERS PAIN</span><span class="dot">✦</span>
+        <span>DIGITAL DESIGN</span><span class="dot">✦</span>
+        <span>GIF CREATOR</span><span class="dot">✦</span>
+        <span>@DOUBEPACK85</span><span class="dot">✦</span>
+        <span>GO PACK GO</span><span class="dot">✦</span>
+        <span>MAKING COMMENT SECTIONS FUNNIER</span><span class="dot">✦</span>
+        <span>PACKERS PAIN</span><span class="dot">✦</span>
+        <span>DIGITAL DESIGN</span><span class="dot">✦</span>
+        <span>GIF CREATOR</span><span class="dot">✦</span>
+        <span>@DOUBEPACK85</span><span class="dot">✦</span>
+        <span>GO PACK GO</span><span class="dot">✦</span>
+        <span>MAKING COMMENT SECTIONS FUNNIER</span><span class="dot">✦</span>
+      </div>
+    </div>
+
+    <div class="featured-strip">
+      <p class="strip-label">// Most Viewed Works</p>
+      <div class="gif-row">
+        <img src="Packers Pain GIFs/giphy_149.gif" alt="Slot Out GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_143.gif" alt="Liverpool Slot GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_172.gif" alt="Absolute Kachow GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_171.gif" alt="Jared Goff GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_29.gif" alt="If man GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_222.gif" alt="Jenny Mod GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_242.gif" alt="Trees Forest GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_199.gif" alt="KSI Thinking GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_108.gif" alt="Nfl Nine GIF" onclick="openModal(this.src)" />
+        <img src="Packers Pain GIFs/giphy_12.gif" alt="Micah Parsons GIF" onclick="openModal(this.src)" />
+      </div>
+    </div>
+    <footer>© 2025 Packers Pain · @DoubePack85 · All GIFs are original works</footer>
+  </section>
+
+  <!-- STORY PAGE -->
+  <section id="story" class="page">
+    <div class="page-header">
+      <p class="page-tag">// I was banned on May 20th of 2026</p>
+      <h2 class="page-title">HOW GIPHY BANNED ME</h2>
+    </div>
+    <div class="story-body story-layout">
+      <div class="story-text-column">
+        <div class="placeholder-block" data-label="The Start">
+          <p class="placeholder-text">So I was chilling scrolling reels and then I see this reel of Connor Burns saying the "Green Bay Sucks" chants were NOT rent free. How do you even justify that lol?</p>
+        </div>
+        <div class="placeholder-block" data-label="The GIF">
+          <p class="placeholder-text">I made a GIF of him and posted it on GIPHY, which is the 2nd meme on the right. People loved it and it got views pretty quickly.</p>
+        </div>
+        <div class="placeholder-block" data-label="The Ban">
+          <p class="placeholder-text">A couple days later, I got an email saying I got BANNED from GIPHY. I still don't understand why and I'm 85% sure it was Connor Burns and his fanboys that mass reported me.</p>
+        </div>
+        <div class="placeholder-block" data-label="What's Next">
+          <p class="placeholder-text">Since GIPHY is run by idiots, I asked my friend @nocontextpackers (go follow him) to reupload my GIFs on his account. I am probably gonna reupload mine on an alternative platform pretty soon.</p>
+        </div>
+      </div>
+      <div class="story-image-column">
+        <img src="views.jpg" alt="Big story image" />
+        <img src="Packers Pain GIFs/giphy_247.gif" alt="Big story image" />
+        <img src="Packers Pain GIFs/giphy_212.gif" alt="Big story image" />
+        <img src="Packers Pain GIFs/giphy_175.gif" alt="Big story image" />
+      </div>
+    </div>
+    <footer>© 2025 Packers Pain · @DoubePack85</footer>
+  </section>
+
+  <!-- LIBRARY PAGE -->
+  <section id="library" class="page">
+    <div class="page-header">
+      <p class="page-tag">// All Works</p>
+      <h2 class="page-title">MY WORKS</h2>
+    </div>
+
+    <div class="library-grid" id="libraryGrid">
+    </div>
+    <footer>© 2026 Packers Pain · @DoubePack85</footer>
+  </section>
+
+  <!-- ABOUT PAGE -->
+  <section id="about" class="page">
+    <div class="page-header">
+      <p class="page-tag">// The Creator</p>
+      <h2 class="page-title">ABOUT ME</h2>
+    </div>
+    <div class="about-layout">
+      <div class="about-gif-column">
+        <img src="myLogo.png" alt="Packers Pain Avatar" />
+        <div class="about-gif-grid">
+          <img src="Packers Pain GIFs/giphy_80.gif" alt="Featured GIF 1" onclick="openModal(this.src)" />
+          <img src="Packers Pain GIFs/giphy_150.gif" alt="Featured GIF 2" onclick="openModal(this.src)" />
+          <img src="Packers Pain GIFs/giphy_174.gif" alt="Featured GIF 3" onclick="openModal(this.src)" />
+          <img src="Packers Pain GIFs/giphy_191.gif" alt="Featured GIF 4" onclick="openModal(this.src)" />
+        </div>
+      </div>
+
+      <div class="about-text-column">
+        <div class="about-section">
+          <h3>Who I Am</h3>
+          <div class="placeholder-block">
+            <p class="placeholder-text">
+              Hello! I'm Shawn, the creator behind Packers Pain. I'm a digital designer and GIF artist. I started making GIFs in August as a fun way to combine my love for sports, meme culture, and digital art. Over time, it grew into a creative outlet where I could share my unique take on the highs and lows of being a sports fan — especially when it comes to the Green Bay Packers. Of course I make other GIFs but my main goal is for the Packers and others to recognize my work someday. This effort was not all done by myself. Most of my GIFs are memes I created myself, however there are some people who have given me ideas or even full on memes. I won't point out any names, but thank you to all of you! You have been a big part of why we came so far! Shoutout to @Green.Bay.Packers, @mckinney.mafia, @nocontextpackers, @packers.base, and @depressedpackersfan_ for being some of my biggest supporters and giving me feedback on my work. I am grateful for all of you and I hope to continue making content that you all enjoy! The images on the left are some of their instagram accounts as well as @tfc.gb, so go follow them!
+            </p>
+          </div>
+        </div>
+
+        <div class="about-section">
+          <h3>What I Create</h3>
+          <div class="placeholder-block">
+            <p class="placeholder-text">
+              My content is a mix of sports GIFs, reaction content, and meme culture. I love creating GIFs that capture the emotions of being a sports fan — the excitement, the frustration, the humor. Whether it's a hilarious reaction to a game moment or a clever meme about the latest team drama, I aim to make content that resonates with fellow fans and adds some fun to their day. I also enjoy experimenting with different styles and formats, from simple reaction GIFs to more complex animations that tell a story or make a statement. Ultimately, my goal is to create content that brings joy and laughter to people's feeds while showcasing my unique perspective as a Packers fan.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-section">
+          <h3>Find Me Online</h3>
+          <div class="social-links">
+            <a href="https://instagram.com/packers.pain" target="_blank" class="social-link">
+              <span class="social-icon">📸</span>
+              <span>Instagram / @packers.pain</span>
+              <span class="social-arrow">→</span>
+            </a>
+            <a href="https://twitter.com/packerspain" target="_blank" class="social-link">
+              <span class="social-icon">🐦</span>
+              <span>Twitter / @packerspain</span>
+              <span class="social-arrow">→</span>
+            </a>
+            <a href="https://giphy.com/channel/DoubePack85" target="_blank" class="social-link">
+              <span class="social-icon">📝</span>
+              <span>GIPHY / @DoubePack85</span>
+              <span class="social-arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>© 2026 Packers Pain · @DoubePack85</footer>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal" onclick="closeModal(event)">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <img id="modalImg" src="" alt="Full size GIF" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
